@@ -1,1 +1,1 @@
-Tutorial on Getting Started with Digital Chips
+Tutorial on Getting Started with Digital Chips Verification.
