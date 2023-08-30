@@ -1,4 +1,4 @@
-Getting Started with Digital Chips Verification.
+Getting Started with Digital Chips Verification.  
 System Verilog  
 UVM  
 System Verilog Assertion  
