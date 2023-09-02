@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/eda/tools/snps/VCS/R-2020.12/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/eda/tools/snps/VCS/R-2020.12/linux64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/eda/tools/snps/VCS/R-2020.12/linux64/lib:/eda/tools/snps/VCS/R-2020.12/linux64/lib/pylib27
+export LD_LIBRARY_PATH
+/eda/tools/snps/VCS/R-2020.12/linux64/bin/vcsfind_create_index.exe  -z  "/home/lufeifan/uvm/look-verify/sv-lab/Makefile/simv.daidir/debug_dump/fsearch/./idents_ky979a.xml.gz" "/home/lufeifan/uvm/look-verify/sv-lab/Makefile/simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" -o "/home/lufeifan/uvm/look-verify/sv-lab/Makefile/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/home/lufeifan/uvm/look-verify/sv-lab/Makefile/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/home/lufeifan/uvm/look-verify/sv-lab/Makefile/simv.daidir/debug_dump/fsearch/fsearch.db"

@@ -1,0 +1,148 @@
+0 
+51
++delay_mode_distributed
++error+500
++incdir+../sv-lab
++incdir+../sv-lab/mcdf
++itf+/eda/tools/snps/VCS/R-2020.12/linux64/lib/vcsdp_lite.tab
++lint=TFIPC-L
++nospecify
++notimingcheck
++v2k
++vcs+flush+all
++vcsd1
++vpi
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -DVCS -O -I/eda/tools/snps/VCS/R-2020.12/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /eda/tools/snps/VCS/R-2020.12/linux64/lib/libvirsim.so /eda/tools/snps/VCS/R-2020.12/linux64/lib/liberrorinf.so /eda/tools/snps/VCS/R-2020.12/linux64/lib/libsnpsmalloc.so /eda/tools/snps/VCS/R-2020.12/linux64/lib/libvfs.so /eda/tools/snps/verdi/R-2020.12/share/PLI/VCS/LINUX64/pli.a
+-Mout=simv
+-Msaverestoreobj=/eda/tools/snps/VCS/R-2020.12/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/eda/tools/snps/VCS/R-2020.12/include
+-Mxllcflags=
+-P
+-Xufe=2steps
+-debug_access+all
+-debug_access+r+w+nomemcbk
+-debug_region+cell
+-f ./lab.f
+-f ./tb.f
+-full64
+-gen_obj
+-kdb
+-l
+-picarchive
+-sverilog
+-timescale=1ns/1ns
+-top
+/eda/tools/snps/VCS/R-2020.12/linux64/bin/vcs1
+compile.log
+/eda/tools/snps/verdi/R-2020.12/share/PLI/VCS/LINUX64/novas.tab
+tb1
+./tb.f
+./lab.f
+76
+XMODIFIERS=@im=ibus
+XDG_SESSION_ID=487
+XDG_RUNTIME_DIR=/run/user/1039
+XDG_MENU_PREFIX=gnome-
+XDG_CURRENT_DESKTOP=GNOME
+VTE_VERSION=5204
+VNCDESKTOP=pcl-ysyx:6 (lufeifan)
+VMR_MODE_FLAG=64
+VERIFY_HOME=/home/lufeifan/uvm/look-verify
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=compile.log
+VCS_HOME=/eda/tools/snps/VCS/R-2020.12
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UVM_HOME=/home/lufeifan/uvm/uvm-1.1d1
+USER_NAME=09_08_22
+UNAME=/bin/uname
+TOOL_HOME=/eda/tools/snps/VCS/R-2020.12/linux64
+TMUX_PANE=%13
+TMUX=/tmp/tmux-1039/default,183863,2
+TERM_PROGRAM_VERSION=3.2a
+TERM_PROGRAM=tmux
+SYNOPSYS_LC_ROOT=/eda/tools/snps/lc/M-2017.06
+SSH_TTY=/dev/pts/43
+SSH_CONNECTION=192.168.23.19 45088 192.168.224.155 22
+SSH_CLIENT=192.168.23.107 63438 22
+SSH_AUTH_SOCK=/run/user/1039/vscode-ssh-auth-sock-265545649
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/209526,unix/unix:/tmp/.ICE-unix/209526
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTEHOST=192.168.23.107
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_IM_MODULE=ibus
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PERL_MM_OPT=INSTALL_BASE=/home/lufeifan/perl5
+PERL_MB_OPT=--install_base /home/lufeifan/perl5
+PERL_LOCAL_LIB_ROOT=/home/lufeifan/perl5
+PERL_HOMEDIR=1
+PERL5LIB=/home/lufeifan/perl5/lib/perl5
+OVA_UUM=0
+OSTYPE=linux
+MFLAGS=
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+KDEDIRS=/usr
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HOSTTYPE=x86_64-linux
+GROUP=lufeifan
+GNOME_TERMINAL_SERVICE=:1.139
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/46e7b30a_a653_47fa_956b_06d485ea86f4
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-cMkxWcsvW6,guid=566c446849c418231bbb941563778436
+CXX=/opt/rh/devtoolset-7/root/usr/bin/g++
+CPP=/opt/rh/devtoolset-7/root/usr/bin/cpp
+COLORTERM=truecolor
+CC=/opt/rh/devtoolset-7/root/usr/bin/gcc
+AXI_UVM_HOME=/home/lufeifan/uvm/uvm-axi4
+ARMLMD_LICENSE_FILE=12345@127.0.0.1:12345@127.0.0.1:12345@127.0.0.1
+APACHEROOT=/eda/tools/apache/redhawkv2020r2.1
+AM_HOME=/home/zhuangchunan/proj/soc_proj/riscv_tools/abstract-machine
+AD_HOME=/eda/tools/arm/amba/AMBADesigner_r3p4_nic400_r0p1/AMBADesigner/
+0
+8
+1673256125 ../mcdt/v0/slave_fifo.v
+1673256125 ../mcdt/v0/mcdt.v
+1673256125 ../mcdt/v0/arbiter.v
+1678361315 ../lab0/tb1.v
+1678354624 ./lab.f
+1678354243 ./tb.f
+1639416444 /eda/tools/snps/verdi/R-2020.12/share/PLI/VCS/LINUX64/novas.tab
+1639445142 /eda/tools/snps/VCS/R-2020.12/linux64/lib/vcsdp_lite.tab
+5
+1639445151 /eda/tools/snps/VCS/R-2020.12/linux64/lib/libvirsim.so
+1639445142 /eda/tools/snps/VCS/R-2020.12/linux64/lib/liberrorinf.so
+1639445153 /eda/tools/snps/VCS/R-2020.12/linux64/lib/libsnpsmalloc.so
+1639445166 /eda/tools/snps/VCS/R-2020.12/linux64/lib/libvfs.so
+1639416446 /eda/tools/snps/verdi/R-2020.12/share/PLI/VCS/LINUX64/pli.a
+1678361337 simv.daidir
+-1 partitionlib

@@ -1,0 +1,131 @@
+22       
+0 trans.sv
+0 /eda/tools/snps/VCS/R-2020.12/etc/systemverilog/trans.sv
+0 generator.sv
+0 /eda/tools/snps/VCS/R-2020.12/etc/systemverilog/generator.sv
+0 driver.sv
+0 /eda/tools/snps/VCS/R-2020.12/etc/systemverilog/driver.sv
+0 monitor.sv
+0 /eda/tools/snps/VCS/R-2020.12/etc/systemverilog/monitor.sv
+0 agent.sv
+0 /eda/tools/snps/VCS/R-2020.12/etc/systemverilog/agent.sv
+0 refmod.sv
+0 /eda/tools/snps/VCS/R-2020.12/etc/systemverilog/refmod.sv
+0 checker.sv
+0 /eda/tools/snps/VCS/R-2020.12/etc/systemverilog/checker.sv
+0 coverage.sv
+0 /eda/tools/snps/VCS/R-2020.12/etc/systemverilog/coverage.sv
+0 env.sv
+0 /eda/tools/snps/VCS/R-2020.12/etc/systemverilog/env.sv
+0 base_test.sv
+0 /eda/tools/snps/VCS/R-2020.12/etc/systemverilog/base_test.sv
+0 interface.sv
+0 /eda/tools/snps/VCS/R-2020.12/etc/systemverilog/interface.sv
+31
++incdir+./include
++v2k
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/eda/tools/snps/VCS/R-2020.12/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /eda/tools/snps/VCS/R-2020.12/linux64/lib/libvirsim.so /eda/tools/snps/VCS/R-2020.12/linux64/lib/liberrorinf.so /eda/tools/snps/VCS/R-2020.12/linux64/lib/libsnpsmalloc.so /eda/tools/snps/VCS/R-2020.12/linux64/lib/libvfs.so
+-Mout=sim_alu
+-Msaverestoreobj=/eda/tools/snps/VCS/R-2020.12/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/eda/tools/snps/VCS/R-2020.12/include
+-Mxllcflags=
+-f ./filelist
+-full64
+-gen_obj
+-l
+-o sim_alu
+-picarchive
+-sverilog
+-timescale=1ns/1ns
+/eda/tools/snps/VCS/R-2020.12/linux64/bin/vcs1
+sim_alu.log
+sim_alu
+./filelist
+50
+XDG_SESSION_ID=19851
+XDG_RUNTIME_DIR=/run/user/1050
+XDG_DATA_DIRS=/home/wuwei/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VMR_MODE_FLAG=64
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=sim_alu.log
+VCS_HOME=/eda/tools/snps/VCS/R-2020.12
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/eda/tools/snps/VCS/R-2020.12/linux64
+SYNOPSYS_LC_ROOT=/eda/tools/snps/lc/M-2017.06
+SSH_TTY=/dev/pts/323
+SSH_CONNECTION=192.168.19.102 9351 192.168.224.155 22
+SSH_CLIENT=192.168.19.102 9351 22
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTEHOST=192.168.19.102
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PERL_MM_OPT=INSTALL_BASE=/home/wuwei/perl5
+PERL_MB_OPT=--install_base /home/wuwei/perl5
+PERL_LOCAL_LIB_ROOT=:/home/wuwei/perl5
+PERL_HOMEDIR=1
+PERL5LIB=/home/wuwei/perl5/lib/perl5:
+OVA_UUM=0
+OSTYPE=linux
+MFLAGS=-w
+MAKELEVEL=2
+MAKEFLAGS=w
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+KDEDIRS=/usr
+HOSTTYPE=x86_64-linux
+HISTCONTROL=ignoredups
+GROUP=wuwei
+CXX=/opt/rh/devtoolset-7/root/usr/bin/g++
+CPP=/opt/rh/devtoolset-7/root/usr/bin/cpp
+CC=/opt/rh/devtoolset-7/root/usr/bin/gcc
+APACHEROOT=/eda/tools/apache/redhawkv2020r2.1
+0
+16
+1677466562 ./include/interface.sv
+1677467985 ./include/base_test.sv
+1677466562 ./include/env.sv
+1677466562 ./include/coverage.sv
+1677466562 ./include/checker.sv
+1677466562 ./include/refmod.sv
+1677466562 ./include/agent.sv
+1677466562 ./include/monitor.sv
+1677466562 ./include/driver.sv
+1677466562 ./include/generator.sv
+1677466562 ./include/trans.sv
+1677467956 ./vsim/tb.sv
+1677466562 ./vsim/alu_pkg.sv
+1677466562 ./vsim/rpt_pkg.sv
+1677466545 ./vsrc/alu.v
+1677467340 ./filelist
+4
+1639445151 /eda/tools/snps/VCS/R-2020.12/linux64/lib/libvirsim.so
+1639445142 /eda/tools/snps/VCS/R-2020.12/linux64/lib/liberrorinf.so
+1639445153 /eda/tools/snps/VCS/R-2020.12/linux64/lib/libsnpsmalloc.so
+1639445166 /eda/tools/snps/VCS/R-2020.12/linux64/lib/libvfs.so
+1677475186 sim_alu.daidir
+-1 partitionlib

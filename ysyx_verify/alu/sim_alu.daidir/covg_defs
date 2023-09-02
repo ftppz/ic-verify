@@ -1,0 +1,65 @@
+global coverage_group 0 alu_pkg::alu_coverage::op_group __coverage_alu_coverage.op_group unused_alu_coverage_op_group_loop_label alu_pkg 0 1 0 0 0  ( 0 
+)
+ 1 1
+ 35 /home/wuwei/alu/include/coverage.sv
+ 8 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+0
+ 2 op 9 0 0 0 0 0 46 alu_coverage::alu_pkg_alu_coverage_op_group_fn 46 alu_coverage::alu_pkg_alu_coverage_op_group_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 3 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 5 1 1 0 0 1 1 6 op_add 10 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 48 alu_coverage::alu_pkg_alu_coverage_op_group_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 6 op_sub 11 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 48 alu_coverage::alu_pkg_alu_coverage_op_group_fn_1 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 6 op_and 12 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 48 alu_coverage::alu_pkg_alu_coverage_op_group_fn_2 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 5 op_or 13 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 48 alu_coverage::alu_pkg_alu_coverage_op_group_fn_3 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 6 op_xor 14 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 48 alu_coverage::alu_pkg_alu_coverage_op_group_fn_4 0 0 0 0 0 0 0
+ 0
+
+end_coverage_group

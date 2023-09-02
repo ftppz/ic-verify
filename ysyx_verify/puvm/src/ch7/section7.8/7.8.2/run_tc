@@ -1,0 +1,9 @@
+#!/bin/csh
+
+
+vcs +acc +vpi -sverilog $UVM_HOME/src/dpi/uvm_dpi.cc -CFLAGS -DVCS -timescale=1ns/1ps -f filelist.f 
+./simv +UVM_TESTNAME=$1
+#./simv +UVM_TESTNAME=my_case0 +uvm_set_type_override="my_monitor,new_monitor"
+#./simv +UVM_TESTNAME=my_case0 +uvm_set_inst_override="my_monitor,new_monitor,uvm_test_top.env.o_agt.mon"
+#./simv +UVM_TESTNAME=my_case0 +UVM_TIMEOUT="300ns, YES"
+#./simv +UVM_TESTNAME=my_case0 +UVM_VERBOSITY=UVM_DEBUG

@@ -1,0 +1,18 @@
+Command: vcs -full64 -debug_access+all +v2k -sverilog -timescale=1ns/1ns -debug_access+r+w+nomemcbk \
+-debug_region+cell +vpi -P /eda/tools/snps/verdi/R-2020.12/share/PLI/VCS/LINUX64/novas.tab \
+/eda/tools/snps/verdi/R-2020.12/share/PLI/VCS/LINUX64/pli.a -kdb +error+500 +notimingcheck \
++nospecify +delay_mode_distributed +vcs+flush+all +lint=TFIPC-L -CFLAGS -DVCS +incdir+../sv-lab/mcdf \
++incdir+../sv-lab -f ./tb.f -f ./lab.f -top tb1 -l compile.log
+                         Chronologic VCS (TM)
+         Version R-2020.12_Full64 -- Thu Mar  9 19:37:58 2023
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+The design hasn't changed and need not be recompiled. 
+If you really want to, delete file simv.daidir/.vcs.timestamp and
+run VCS again.
+

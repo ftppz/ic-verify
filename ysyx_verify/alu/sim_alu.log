@@ -1,0 +1,65 @@
+Command: vcs -full64 +v2k -sverilog -timescale=1ns/1ns +incdir+./include -f ./filelist \
+-o sim_alu -l sim_alu.log
+                         Chronologic VCS (TM)
+         Version R-2020.12_Full64 -- Mon Feb 27 13:19:44 2023
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file './vsrc/alu.v'
+Parsing design file './vsim/rpt_pkg.sv'
+Parsing design file './vsim/alu_pkg.sv'
+Parsing included file './include/trans.sv'.
+Back to file './vsim/alu_pkg.sv'.
+Parsing included file './include/generator.sv'.
+Back to file './vsim/alu_pkg.sv'.
+Parsing included file './include/driver.sv'.
+Back to file './vsim/alu_pkg.sv'.
+Parsing included file './include/monitor.sv'.
+Back to file './vsim/alu_pkg.sv'.
+Parsing included file './include/agent.sv'.
+Back to file './vsim/alu_pkg.sv'.
+Parsing included file './include/refmod.sv'.
+Back to file './vsim/alu_pkg.sv'.
+Parsing included file './include/checker.sv'.
+Back to file './vsim/alu_pkg.sv'.
+Parsing included file './include/coverage.sv'.
+Back to file './vsim/alu_pkg.sv'.
+Parsing included file './include/env.sv'.
+Back to file './vsim/alu_pkg.sv'.
+Parsing included file './include/base_test.sv'.
+Back to file './vsim/alu_pkg.sv'.
+Parsing design file './vsim/tb.sv'
+Parsing included file './include/interface.sv'.
+Back to file './vsim/tb.sv'.
+Top Level Modules:
+       tb
+TimeScale is 1 ns / 1 ns
+Starting vcs inline pass...
+
+8 modules and 0 UDP read.
+recompiling package vcs_paramclassrepository
+recompiling module alu
+recompiling module carry4
+recompiling package rpt_pkg
+recompiling package alu_pkg
+recompiling module in_if
+recompiling module out_if
+recompiling module tb
+All of 8 modules done
+make[2]: Entering directory `/home/wuwei/alu/csrc'
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../sim_alu ]; then chmod a-x ../sim_alu; fi
+g++  -o ../sim_alu      -rdynamic  -Wl,-rpath='$ORIGIN'/sim_alu.daidir -Wl,-rpath=./sim_alu.daidir \
+-Wl,-rpath=/eda/tools/snps/VCS/R-2020.12/linux64/lib -L/eda/tools/snps/VCS/R-2020.12/linux64/lib \
+-Wl,-rpath-link=./   objs/amcQw_d.o   _232121_archive_1.so  SIM_l.o       rmapats_mop.o \
+rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o           -lnuma -lvirsim \
+-lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /eda/tools/snps/VCS/R-2020.12/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive          /eda/tools/snps/VCS/R-2020.12/linux64/lib/vcs_save_restore_new.o \
+-ldl  -lc -lm -lpthread -ldl 
+../sim_alu up to date
+make[2]: Leaving directory `/home/wuwei/alu/csrc'
+CPU time: .670 seconds to compile + .592 seconds to elab + .264 seconds to link

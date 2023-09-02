@@ -1,0 +1,5 @@
+
+./vsrc/alu.v
+./vsim/rpt_pkg.sv
+./vsim/alu_pkg.sv
+./vsim/tb.sv
