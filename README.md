@@ -18,5 +18,5 @@ ok, action.
 
 ---
 
-Ms.Mo: u have to read at least the first 7 chapters "UVM1.1 Application Guide and Source Code Analysis" 
+Ms.Mo: u have to read at least the first 7 chapters of "UVM1.1 Application Guide and Source Code Analysis" 
 
