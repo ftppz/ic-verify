@@ -14,3 +14,9 @@ cd doc  # read the course introduction and other .md
 ```
 order: 资源获取->教程介绍->sv语法->sv验证平台->uvm验证平台->sva语法  
 ok, action.  
+
+
+---
+
+Ms.Mo: u have to read at least the first 7 chapters "UVM1.1 Application Guide and Source Code Analysis" 
+
