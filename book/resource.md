@@ -6,5 +6,3 @@
 
 [sv3rd-en-pdf](https://3ec1218usm.files.wordpress.com/2016/12/book_systemverilog_for_verification.pdf)
 
-[verification guide](https://verificationguide.com/)
-this is a good web about SV + UVM + SYSTEM-C
